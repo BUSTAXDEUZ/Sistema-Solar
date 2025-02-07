@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 public class SistemaSolar {
     public static void main(String[] args) {
-        Planeta[] planetas = new Planeta[100]; // Arreglo para almacenar planetas
+        Planeta[] planetas = new Planeta[100]; 
         int contador = 0;
         String menu = "1. Agregar Planeta Rocoso\n2. Agregar Planeta Gaseoso\n3. Mostrar Planetas\n4. Salir";
         int opcion;
