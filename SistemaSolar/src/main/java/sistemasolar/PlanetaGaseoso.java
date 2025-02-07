@@ -10,7 +10,7 @@ package sistemasolar;
  */
 
 class PlanetaGaseoso extends CuerpoCeleste implements Planeta {
-    private double periodoOrbital; // en días
+    private double periodoOrbital; 
 
     public PlanetaGaseoso(String nombre, double tamano, double distanciaAlSol, int numeroDeLunas, double periodoOrbital) {
         super(nombre, tamano, distanciaAlSol, numeroDeLunas);
